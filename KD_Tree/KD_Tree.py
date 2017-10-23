@@ -15,7 +15,7 @@ import operator
 class KdNode(object):
     def __init__(self, dom_elt, split, left, right):
         self.dom_elt = dom_elt
-        self.split   = split
+        self.split   = split  ## 维度
         self.left    = left ##左节点
         self.right   = right ##右节点
 
